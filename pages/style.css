@@ -1,8 +1,21 @@
 body {
     background-color: lightblue;
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
     color: darkblue;
     text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+img {
+    width: 100px;
+    height: 100px;
 }
