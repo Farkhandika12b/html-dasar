@@ -18,4 +18,11 @@ th,td {
 img {
     width: 100px;
     height: 100px;
+    padding-left: 120px;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div {
+    display: flex;
 }
