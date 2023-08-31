@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(209, 209, 209);
+    background-image: url(/assets/background1.jpg);
+    background-repeat: repeat;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,26 +11,25 @@ body {
 }
 
 .login-container{
-    background-color: #fff;
+    background-color: rgba(red, green, blue, 0.5);
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 10px;
 }
 
 .logo {
     display: flex;
-    width: 30pt;
+    height: 30pt;
 }
 
 .video-layout {
     display: flex;
-    height: 268pt;
-    margin: 5px;
+    margin-right: 20px;
+    margin-top:20px;
 }
-.video-layout video {
-    width: 3;
+.video {
+    width: 640px;
+    height: 480px;
 }
 
 .login-container h2 {
@@ -62,4 +62,16 @@ body {
 }
 .form-group button:hover{
     background-color: #86c92e;
+}
+
+.login_video {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.captcha-img {
+    width: 285px;
+    height: 70px;
 }
